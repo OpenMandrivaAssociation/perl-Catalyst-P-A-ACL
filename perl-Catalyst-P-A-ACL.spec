@@ -4,7 +4,7 @@
 %define	modprefix Catalyst
 
 %define version 0.08
-%define release %mkrel 1
+%define release %mkrel 2
 
 Summary:	ACL support for Catalyst applications
 Name:		%{name}
