@@ -25,7 +25,6 @@ BuildRequires:	perl(Tree::Simple::Visitor::FindByPath)
 BuildRequires:	perl(Tree::Simple::Visitor::GetAllDescendents)
 Provides:	perl-%{module}
 Obsoletes:	perl-%{module}
-BuildRoot:	%{_tmppath}/%{name}-%{version}
 BuildArch:	noarch
 
 %description
