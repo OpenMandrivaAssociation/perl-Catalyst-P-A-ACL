@@ -1,6 +1,6 @@
 %define	upstream_name	 Catalyst-Plugin-Authorization-ACL
 %define abbrev_name      Catalyst-P-A-ACL
-%define upstream_version 0.11
+%define upstream_version 0.13
 
 Name:		perl-%{abbrev_name}
 Version:	%perl_convert_version %{upstream_version}
