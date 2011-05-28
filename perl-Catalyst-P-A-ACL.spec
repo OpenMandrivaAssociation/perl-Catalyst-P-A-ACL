@@ -6,7 +6,7 @@
 
 Name:		perl-%{abbrev_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	%mkrel 1
+Release:	%mkrel 2
 
 Summary:	ACL support for Catalyst applications
 License:	GPL+ or Artistic
