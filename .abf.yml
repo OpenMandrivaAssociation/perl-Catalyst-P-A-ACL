@@ -1,2 +1,4 @@
+removed_sources:
+  Catalyst-Plugin-Authorization-ACL-0.15.tar.gz: 4b4bb17cf942d838aa97085f5641be913492b23d
 sources:
-  "Catalyst-Plugin-Authorization-ACL-0.15.tar.gz": 4b4bb17cf942d838aa97085f5641be913492b23d
+  Catalyst-Plugin-Authorization-ACL-0.16.tar.gz: d0db208421017f82382dc1aa5ad09e3892e13cc4

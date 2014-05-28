@@ -1,6 +1,6 @@
 %define	upstream_name	 Catalyst-Plugin-Authorization-ACL
 %define abbrev_name      Catalyst-P-A-ACL
-%define upstream_version 0.15
+%define upstream_version 0.16
 
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(A(.*)\\)'
@@ -10,13 +10,14 @@
 
 Name:		perl-%{abbrev_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Release:	1
 
 Summary:	ACL support for Catalyst applications
+
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}/
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Catalyst/%{upstream_name}-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Catalyst) >= 5.7
@@ -56,4 +57,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 %doc Changes README
 %{_mandir}/*/*
 %{perl_vendorlib}/Catalyst
+
 
