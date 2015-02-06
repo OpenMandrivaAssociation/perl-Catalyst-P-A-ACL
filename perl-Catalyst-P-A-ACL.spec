@@ -10,7 +10,7 @@
 
 Name:		perl-%{abbrev_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	3
 
 Summary:	ACL support for Catalyst applications
 
