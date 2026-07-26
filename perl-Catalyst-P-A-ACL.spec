@@ -1,7 +1,5 @@
 %define	upstream_name	 Catalyst-Plugin-Authorization-ACL
 %define abbrev_name      Catalyst-P-A-ACL
-%define upstream_version 0.16
-
 %if %{_use_internal_dependency_generator}
 %define __noautoreq 'perl\\(A(.*)\\)'
 %else
@@ -9,15 +7,15 @@
 %endif
 
 Name:		perl-%{abbrev_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	0.16
+Release:	5
 
 Summary:	ACL support for Catalyst applications
 
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://github.com/rkitover/catalyst-plugin-authorization-acl
-Source0:	https://cpan.metacpan.org/authors/id/R/RK/RKITOVER/Catalyst-Plugin-Authorization-ACL-%{upstream_version}.tar.gz
+Source0:	https://cpan.metacpan.org/authors/id/R/RK/RKITOVER/Catalyst-Plugin-Authorization-ACL-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -42,7 +40,7 @@ arbitrary rules for Catalyst applications. It operates only on the
 Catalyst private namespace, at least at the moment.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
